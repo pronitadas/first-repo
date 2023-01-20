@@ -32,4 +32,8 @@ body{
 }
 .half-width p{
     margin-bottom: 30px;
+    text-align: justify;
+}
+.mid-section{
+    display: flex;
 }
