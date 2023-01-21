@@ -5,8 +5,16 @@ body{
 .orange{
     color: orangered;
 }
-.top-section{
+
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
+
+}
+.top-section{
+    background-image: url(Images/back\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
 }
 .half-width{
     width: 50%;
@@ -34,6 +42,4 @@ body{
     margin-bottom: 30px;
     text-align: justify;
 }
-.mid-section{
-    display: flex;
-}
+
