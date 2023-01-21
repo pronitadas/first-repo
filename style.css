@@ -8,7 +8,7 @@ body{
 
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 75px;
 
 }
 .top-section{
@@ -20,11 +20,11 @@ body{
     width: 50%;
     padding: 5%;
 }
-.half-width h1{
+section h1{
     font-size: 50px;
     font-weight: 300px;
 }
-.half-width h3{
+section h3{
     font-size: 25px;
 }
 .half-width img{
@@ -42,4 +42,27 @@ body{
     margin-bottom: 30px;
     text-align: justify;
 }
+.experience-item{
+    box-shadow: 10px 10px 30px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, orangered);
+    border-image-slice: 1;
+}
+
+.last-section{
+    background-image: url(Images/back\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+footer p{
+    text-align: center;
+}
+
+
+
 
